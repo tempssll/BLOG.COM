@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     splashScreen.style.display = "none";
     mainContent.style.display = "block";
-  }, 10); // Cambia este valor para ajustar el tiempo de espera
+  }, 3); // Cambia este valor para ajustar el tiempo de espera
 
   // Agregar evento de clic al contenido principal para cerrar la barra lateral
   mainContent.addEventListener("click", function (event) {
