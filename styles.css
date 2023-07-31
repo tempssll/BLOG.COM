@@ -42,8 +42,10 @@ body {
 /* Estilos para el menú y el botón VER */
 #toggleButton {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 40px;
+  left: 0px;
+  width: 20%;
+  height: 9%;
 }
 
 .sidebar {
@@ -80,6 +82,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  left: 0px;
 }
 /* Estilos para el botón VER */
 .btnver {
@@ -101,4 +104,8 @@ body {
 }
 
 .seccion {
+}
+
+.atras {
+  background-color: red;
 }
