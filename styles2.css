@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #641e16;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado 1 */
+
+.textocoy {
+  background-color: gold;
+  text-align: center;
+}
+
+/* Estilos para el botón "Productos" */
+
+/* Estilos para las secciones "Café molido" y "Café en Grano" */
+#cafe-molido-section,
+#cafe-en-grano-section {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para los productos de café */
+.product-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.textouno {
+  color: black;
+  background-color: #ddd;
+}
+.video {
+  width: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.textocafe {
+  background-color: gold;
+  color: black;
+}
+
+/* Seccion de contacto */
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.contacto-section,
+.privacidad-section,
+.about-section {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: #ddd;
+  text-align: center;
+}
+
+.cecion {
+  background-color: black;
+  color: #ddd;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+/* BOTON ESTILOS */
+.producto {
+  color: gold;
+  width: 20%;
+  height: 60px;
+  background-color: red;
+}
+
+.productods-fixed {
+  position: fixed;
+  top: 10px; /* Distancia desde la parte superior de la ventana */
+  right: 10px; /* Distancia desde el borde derecho de la ventana */
+  z-index: 999; /* Asegura que el botón esté por encima de otros elementos */
+}

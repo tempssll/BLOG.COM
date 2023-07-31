@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechCOYR7</title>
+    <!-- Enlace a tu archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+      <div class="splash-content">
+        <!-- Aquí puedes agregar tu logotipo o cualquier otro contenido del splash -->
+        <div class="loader"></div>
+      </div>
+    </div>
+
+    <!-- Contenido principal de la página -->
+    <div id="main-content">
+      <!-- Aquí va el contenido principal de tu página -->
+      <h1 class="inicio">TECHCOYR7</h1>
+      <!-- Botón VER -->
+      <button class="btnver" id="toggleButton" onclick="toggleSidebar()">
+        SECCIONES
+      </button>
+      <div class="sidebar" id="sidebar">
+        <br />
+        <a href="#" onclick="showMenuContent('TECHCOYR7')" class="categorias"
+          >CATEGORIAS</a
+        ><br />
+        <a class="seccion" href="#" onclick="showMenuContent('TECHCOYR7')"
+          >TECHCOYR7</a
+        ><br />
+        <a
+          class="seccion"
+          href="coycoffee.html"
+          onclick="showMenuContent('COYCOFFEE')"
+          >COYCOFFEE</a
+        ><br />
+        <a class="seccion" href="#" onclick="showMenuContent('Accesorios')"
+          >Accesorios</a
+        ><br />
+        <a class="seccion" href="#" onclick="showMenuContent('Productos')"
+          >Productos</a
+        ><br />
+      </div>
+
+      <!-- Contenido del menú seleccionado -->
+      <div id="menu-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

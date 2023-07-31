@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Página de Café</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <!-- Encabezado 1 -->
+    <h1 id="header1" class="textocoy">COY COFFE</h1>
+
+    <video class="video" id="video" width="640" height="360" controls autoplay>
+      <source src="video/cafe.mp4" type="video/mp4" />
+      <!-- Agrega aquí formatos adicionales del video si lo deseas -->
+      Tu navegador no admite el elemento de video.</video
+    ><br /><br />
+
+    <!-- Botón de Productos -->
+    <button class="producto" onclick="toggleProductos()">Productos</button>
+
+    <div id="productosSection" style="display: none">
+      <h2>CAFÉ MOLIDO</h2>
+      <!-- Aquí coloca el contenido para la sección de café molido -->
+
+      <h2>Café en Grano</h2>
+      <!-- Aquí coloca el contenido para la sección de café en grano -->
+    </div>
+
+    <!-- Sección "Café molido" -->
+    <div id="cafe-molido-section">
+      <h1 class="textocafe">CAFÉ MOLIDO</h1>
+      <!-- Aquí se cargarán las imágenes de café molido dinámicamente -->
+    </div>
+
+    <!-- Sección "Café en Grano" -->
+    <div id="cafe-en-grano-section">
+      <h1 class="textocafe">CAFÉ EN GRANO</h1>
+      <!-- Aquí se cargarán las imágenes de café en grano dinámicamente -->
+    </div>
+  </body>
+  <!-- Seccion de contacto -->
+  <div class="contacto-section">
+    <h2>Información de Contacto</h2>
+    <p>Teléfono: +57 3122305761</p>
+    <p>Email: brayan324554@gmail.com</p>
+  </div>
+
+  <!-- Sección de Política de Privacidad -->
+  <div class="privacidad-section">
+    <h2>Política de Privacidad</h2>
+  </div>
+
+  <!-- Sección de Acerca de Nosotros -->
+  <div class="cecion">
+    <h2>Acerca de Nosotros</h2>
+    <p>
+      Bienvenido a COY COFFEE, un lugar donde la pasión por el café y la calidad
+      se fusionan para brindarte una experiencia única en cada taza. Nuestra
+      historia comenzó con el deseo de compartir el encanto del café, desde su
+      origen hasta tu taza, y deleitar a los amantes de esta apreciada bebida.
+    </p>
+  </div>
+  <script src="app2.js"></script>
+</html>
