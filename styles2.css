@@ -111,3 +111,68 @@ p {
   right: 10px; /* Distancia desde el borde derecho de la ventana */
   z-index: 999; /* Asegura que el botón esté por encima de otros elementos */
 }
+.precio {
+  background-color: darkgreen;
+  color: gold;
+}
+
+.precio2 {
+  color: #ddd;
+}
+
+.info {
+  color: gold;
+}
+
+/* ICONO WHAAPP */
+
+/* Estilos para el contenedor del ícono de WhatsApp */
+#whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.iconono {
+  width: 60%;
+}
+#whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#whatsapp-icon img {
+  width: 99px; /* Ajusta el tamaño del icono como desees */
+  height: 80px; /* Ajusta el tamaño del icono como desees */
+}
+
+#whatsapp-icon span {
+  margin-top: 5px; /* Espacio entre el icono y el texto "Contacto" */
+  font-size: 12px; /* Tamaño del texto "Contacto" */
+  color: black; /* Color del texto "Contacto" */
+}
+
+.span {
+  background-color: red;
+  color: gold;
+}
+
+.precio3 {
+  color: darkgreen;
+  font-size: 30px;
+}
+
+.producto {
+  width: 40%;
+  background-color: black;
+  color: gold;
+}
+.precio4 {
+  color: darkgreen;
+}
