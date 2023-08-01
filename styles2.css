@@ -184,3 +184,7 @@ p {
   position: fixed;
   z-index: 9999;
 }
+.armenia {
+  color: green;
+  background-color: yellow;
+}
