@@ -176,3 +176,11 @@ p {
 .precio4 {
   color: darkgreen;
 }
+.inicio {
+  width: 20%;
+  height: 5%;
+  background-color: black;
+  color: gold;
+  position: fixed;
+  z-index: 9999;
+}
