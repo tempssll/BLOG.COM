@@ -127,3 +127,16 @@ body {
 .splash-content {
   text-align: center;
 }
+
+/* Servicios del HTML */
+.servicio {
+  text-align: center;
+  background-color: black;
+  color: gold;
+}
+
+/* Seccion de categorias */
+.cate {
+  background-color: black;
+  color: #ffa500;
+}
