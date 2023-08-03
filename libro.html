@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles3.css" />
+    <title>libro</title>
+  </head>
+  <body>
+    <!-- Contenido principal de la página -->
+    <div id="main-content">
+      <!-- Aquí va el contenido principal de tu página -->
+      <h1 class="inicio">TECHCOYR7</h1>
+
+      <p>Paga por PSE para obtener acceso al libro</p>
+      <!-- Formulario de pago -->
+      <form id="payment-form" method="POST" action="procesar_pago.php">
+        <input type="hidden" name="producto" value="Mi Libro" />
+        <input type="hidden" name="precio" value="10000" />
+        <input type="hidden" name="moneda" value="COP" />
+        <input type="hidden" name="descripcion" value="Compra de Mi Libro" />
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <button type="submit">Pagar con PSE</button>
+      </form>
+
+      <!-- Resto de tu contenido -->
+    </div>
+  </body>
+</html>
