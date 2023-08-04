@@ -1,20 +1,19 @@
 body {
   background-color: #154360;
 }
-
 /* Estilos para el logotipo */
-
 /* Estilos para el logotipo */
 /* Estilos para el logotipo */
 /* Estilos para el logotipo */
 /* Estilos para el logotipo */
 .logo {
+  position: fixed; /* Se mantiene fija cuando me desplace para abajo */
   position: absolute;
-  bottom: 10px; /* Ajusta esta posición según prefieras */
+  bottom: 510px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
   right: 10px; /* Ajusta esta posición según prefieras */
-  width: 150px; /* Ajusta el ancho del logotipo según prefieras */
-  height: auto; /* Ajusta la altura del logotipo según prefieras */
-  z-index: 100; /* Asegúrate de que el logotipo esté por encima de otros elementos */
+  width: 130px;
+  height: auto;
+  z-index: 100;
 }
 
 /* Estilos para el Splash Screen */
@@ -164,4 +163,20 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-btn {
+  background-color: #25d366; /* Color de fondo deseado */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
