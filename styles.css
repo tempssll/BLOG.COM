@@ -11,7 +11,7 @@ body {
   position: absolute;
   bottom: 510px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
   right: 10px; /* Ajusta esta posición según prefieras */
-  width: 130px;
+  width: 150px;
   height: auto;
   z-index: 100;
 }
@@ -106,15 +106,15 @@ body {
   margin-top: 30px;
   width: 10%;
   height: 10%;
-  background-color: black;
-  color: gold;
+  background-color: red;
+  color: #fff;
   border: #ffa500;
 }
 
 /* CATEGORIAS BARRA LATERAL */
 .categorias {
   color: gold;
-  background-color: black;
+  background-color: red;
 }
 
 .seccion {
@@ -166,17 +166,82 @@ body {
 }
 
 /* Estilos para el botón de WhatsApp */
+
 .whatsapp-btn {
-  background-color: #25d366; /* Color de fondo deseado */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
   color: #fff;
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  -webkit-transition: transform 0.2s, box-shadow 0.2s;
+  -moz-transition: transform 0.2s, box-shadow 0.2s;
+  -ms-transition: transform 0.2s, box-shadow 0.2s;
+  -o-transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .whatsapp-btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* SECCION DE CONTACTO */
+.contact-section {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.social-media li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+/* Tus estilos previos */
+
+.video-section {
+  background-color: black;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.video-section video {
+  max-width: 100%;
 }
