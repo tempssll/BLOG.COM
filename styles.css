@@ -7,6 +7,7 @@ body {
 /* Estilos para el logotipo */
 /* Estilos para el logotipo */
 .logo {
+  position: fixed;
   position: fixed; /* Se mantiene fija cuando me desplace para abajo */
   position: absolute;
   bottom: 510px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
@@ -80,7 +81,7 @@ body {
 
 .sidebar a {
   display: block;
-  color: white;
+  color: blanchedalmond;
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -104,16 +105,16 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 30px;
-  width: 10%;
+  width: 19%;
   height: 10%;
-  background-color: gold;
+  background-color: blue;
   color: black;
   border: #ffa500;
 }
 
 /* CATEGORIAS BARRA LATERAL */
 .categorias {
-  color: gold;
+  color: black;
   background-color: red;
 }
 
@@ -122,6 +123,7 @@ body {
 
 .atras {
   background-color: red;
+  color: black;
 }
 
 #splash-screen {
