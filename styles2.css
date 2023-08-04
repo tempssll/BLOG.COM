@@ -5,6 +5,15 @@ body {
   padding: 0;
 }
 
+.logo {
+  position: fixed; /* Se mantiene fija cuando me desplace para abajo */
+  bottom: 490px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
+  right: 10px; /* Ajusta esta posición según prefieras */
+  width: 150px;
+  height: auto;
+  z-index: 100;
+}
+
 /* Estilos para el contenedor principal */
 .container {
   max-width: 1200px;
@@ -41,6 +50,10 @@ body {
   object-fit: cover;
   border: 1px solid #ddd;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .product-name {

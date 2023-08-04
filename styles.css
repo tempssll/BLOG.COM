@@ -7,9 +7,7 @@ body {
 /* Estilos para el logotipo */
 /* Estilos para el logotipo */
 .logo {
-  position: fixed;
   position: fixed; /* Se mantiene fija cuando me desplace para abajo */
-  position: absolute;
   bottom: 510px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
   right: 10px; /* Ajusta esta posición según prefieras */
   width: 150px;
