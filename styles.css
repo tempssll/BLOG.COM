@@ -2,6 +2,21 @@ body {
   background-color: #154360;
 }
 
+/* Estilos para el logotipo */
+
+/* Estilos para el logotipo */
+/* Estilos para el logotipo */
+/* Estilos para el logotipo */
+/* Estilos para el logotipo */
+.logo {
+  position: absolute;
+  bottom: 10px; /* Ajusta esta posición según prefieras */
+  right: 10px; /* Ajusta esta posición según prefieras */
+  width: 150px; /* Ajusta el ancho del logotipo según prefieras */
+  height: auto; /* Ajusta la altura del logotipo según prefieras */
+  z-index: 100; /* Asegúrate de que el logotipo esté por encima de otros elementos */
+}
+
 /* Estilos para el Splash Screen */
 #splash-screen {
   position: fixed;
@@ -77,6 +92,7 @@ body {
 }
 
 .inicio {
+  width: 30;
   color: #ffa500;
   background-color: black;
   text-align: center;
