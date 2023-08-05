@@ -240,3 +240,31 @@ p {
 .video-section video {
   max-width: 100%;
 }
+
+.center-wrapper {
+  position: relative;
+  width: 400px; /* Ancho deseado */
+  height: 400px; /* Altura deseada */
+  overflow: hidden;
+}
+
+.nicho {
+  white-space: nowrap;
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  transform-origin: top left;
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: rotateText 10s linear infinite;
+  color: #fff;
+  background-color: black;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
