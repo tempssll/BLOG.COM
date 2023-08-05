@@ -201,3 +201,15 @@ p {
   color: green;
   background-color: yellow;
 }
+@media (max-width: 768px) {
+  .nicho {
+    font-size: 14px;
+  }
+}
+
+/* Pantallas aún más pequeñas */
+@media (max-width: 576px) {
+  .nicho {
+    font-size: 12px;
+  }
+}
