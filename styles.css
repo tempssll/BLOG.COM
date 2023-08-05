@@ -94,6 +94,9 @@ body {
   font-size: 40px;
   color: red;
   background-color: black;
+  /* Ajusta esta cantidad para cambiar la distancia desde abajo */
+  right: 40px;
+  left: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la derecha */
 }
 
 .inicio3 {
