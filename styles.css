@@ -90,14 +90,15 @@ body {
 }
 
 .inicio {
-  width: 20;
-  color: #ffa500;
-  background-color: black;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  left: 0px;
 }
+
+.inicio3 {
+  text-align: center;
+  width: 20;
+  color: gold;
+  background-color: black;
+}
+
 /* Estilos para el botón VER */
 .btnver {
   margin-top: 35px;
@@ -149,6 +150,7 @@ body {
 .cate {
   background-color: black;
   color: #ffa500;
+  text-align: center;
 }
 
 .video {
@@ -250,6 +252,7 @@ p {
 
 .nicho {
   white-space: nowrap;
+  text-align: justify;
   position: absolute;
   top: 20%;
   left: 75%;
@@ -268,18 +271,39 @@ p {
 .texto {
   color: #fff;
   background-color: black;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
 }
 
 .nicho2 {
   text-align: center;
   color: #ffa500;
   background-color: #fff;
+  font-size: 24px;
 }
 
 .seccion2 {
   color: saddlebrown;
   background-color: saddlebrown;
 }
+.desarrollo {
+  color: #fff;
+  background-color: black;
+  width: 100%; /* Ajusta el ancho del contenedor según tus necesidades */
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+
+.cam {
+  color: gold;
+}
+
+.seccion3 {
+  background-color: blue;
+}
+
 @keyframes rotateText {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
