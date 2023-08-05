@@ -258,14 +258,38 @@ p {
   animation: rotateText 10s linear infinite;
   color: #fff;
   background-color: black;
+  -webkit-animation: rotateText 10s linear infinite;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);
+  -moz-transform: translate(-50%, -50%) rotate(0deg);
+  -ms-transform: translate(-50%, -50%) rotate(0deg);
+  -o-transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.texto {
+  color: #fff;
+  background-color: black;
+}
+
+.nicho2 {
+  text-align: center;
+  color: #ffa500;
+  background-color: #fff;
 }
 
 @keyframes rotateText {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
   }
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    -moz-transform: translate(-50%, -50%) rotate(360deg);
+    -ms-transform: translate(-50%, -50%) rotate(360deg);
+    -o-transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 
