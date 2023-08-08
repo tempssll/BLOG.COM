@@ -196,6 +196,7 @@ p {
   color: gold;
   position: fixed;
   z-index: 9999;
+  cursor: pointer;
 }
 .armenia {
   color: green;

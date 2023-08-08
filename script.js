@@ -4,10 +4,14 @@ window.addEventListener("load", function () {
   const mainContent = document.getElementById("main-content");
 
   // Espera 1.5 segundos antes de ocultar el splash y mostrar el contenido principal
-  setTimeout(function () {
-    splashScreen.style.display = "none";
-    mainContent.style.display = "block";
-  }, 3); // Cambia este valor para ajustar el tiempo de espera
+  setTimeout(
+    function () {
+      splashScreen.style.display = "none";
+      mainContent.style.display = "block";
+    },
+    0,
+    2
+  ); // Cambia este valor para ajustar el tiempo de espera
 
   // Agregar evento de clic al contenido principal para cerrar la barra lateral
   mainContent.addEventListener("click", function (event) {

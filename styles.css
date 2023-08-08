@@ -16,24 +16,6 @@ body {
 }
 
 /* Estilos para el Splash Screen */
-#splash-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: blue; /* Fondo azul */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  color: aliceblue;
-  /* Asegura que el splash esté por encima de todo */
-}
-
-.splash-content {
-  text-align: center;
-}
 
 .loader {
   border: 4px solid rgba(255, 255, 255, 0.3);
@@ -95,8 +77,8 @@ body {
   color: red;
   background-color: black;
   /* Ajusta esta cantidad para cambiar la distancia desde abajo */
-  right: 40px;
-  left: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la derecha */
+  bottom: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la parte inferior */
+  left: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la izquierda */
 }
 
 .inicio3 {
@@ -125,21 +107,6 @@ body {
 .atras {
   background-color: red;
   color: black;
-}
-
-#splash-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: blue; /* Fondo azul */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-  color: aliceblue;
-  /* Asegura que el splash esté por encima de todo */
 }
 
 .splash-content {
