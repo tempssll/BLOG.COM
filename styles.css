@@ -90,18 +90,19 @@ body {
 
 /* Estilos para el botón VER */
 .btnver {
-  margin-top: 35px;
+  width: 100%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+  padding: 10px; /* Añadido relleno para hacer el botón más legible */
+  box-sizing: border-box; /* Cambiado el valor a 'border-box' para incluir el relleno en el ancho */
+  cursor: pointer;
   background-color: blue;
   color: antiquewhite;
+  margin-top: 9px;
 }
 
 /* CATEGORIAS BARRA LATERAL */
 .categorias {
   color: black;
   background-color: red;
-}
-
-.seccion {
 }
 
 .atras {
