@@ -14,9 +14,7 @@ body {
   height: auto;
   z-index: 100;
 }
-
 /* Estilos para el Splash Screen */
-
 .loader {
   border: 4px solid rgba(255, 255, 255, 0.3);
   /*Bordeblancotranslúcido*/
@@ -270,7 +268,6 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
 }
-
 .cam {
   color: gold;
 }
