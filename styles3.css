@@ -2,6 +2,8 @@
 
 body {
   background-color: #154360;
+  margin: 0;
+  padding: 0;
 }
 
 .inicio {
@@ -22,3 +24,81 @@ body {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilos para el botón de WhatsApp */
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  -webkit-transition: transform 0.2s, box-shadow 0.2s;
+  -moz-transition: transform 0.2s, box-shadow 0.2s;
+  -ms-transition: transform 0.2s, box-shadow 0.2s;
+  -o-transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btnini {
+  width: 20%;
+  height: 5%;
+  background-color: red;
+  color: #fff;
+  position: fixed;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+/* SECCION DE CONTACTO */
+.contact-section {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.social-media li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}

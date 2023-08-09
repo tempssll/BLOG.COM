@@ -14,6 +14,8 @@
       <h1 class="inicio">TECHCOYR7</h1>
 
       <p>Paga por PSE para obtener acceso al libro</p>
+      <br />
+      <br />
       <!-- Formulario de pago -->
       <form id="payment-form" method="POST" action="procesar_pago.php">
         <input type="hidden" name="producto" value="Mi Libro" />
@@ -21,16 +23,63 @@
         <input type="hidden" name="moneda" value="COP" />
         <input type="hidden" name="descripcion" value="Compra de Mi Libro" />
 
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required /><br /><br />
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          required
+          placeholder="Nombre"
+        /><br /><br />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="email"> EMAIL</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="EMAIL"
+        /><br /><br />
+        <br /><br />
 
-        <button type="submit">Pagar con PSE</button>
+        <button type="submit">COMPRAR</button><br /><br /><br />
+        <h2>Vesión Web</h2>
+        <p>
+          Nota: Esta es la versión web, si quieres el libro digital ponte en
+          contacto
+        </p>
+        <br />
+        <button>LIBRO Web</button>
       </form>
-
       <!-- Resto de tu contenido -->
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <a href="index.html">
+      <button class="btnini">INICIO</button>
+    </a>
+
+    <!-- BOTON WHASAPP -->
+    <div class="fixed-bottom p-3">
+      <a
+        href="https://api.whatsapp.com/send?phone=3052076713"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="whatsapp-btn"
+      >
+        <i class="fab fa-whatsapp"></i> CONTACTAR
+      </a>
+    </div>
+
+    <div class="contact-section">
+      <div class="contact-content">
+        <h2>CONTACTO</h2>
+        <p>ARMENIA QUINDIO</p>
+        <p>TELEFONO: 3052076713</p>
+        <p>POLÍTICA DE SEGURIDAD</p>
+        <p>ACERCA DE NOSOTROS</p>
+        <p>EMAIL: brayan324554@gmail.com</p>
+      </div>
     </div>
   </body>
 </html>
