@@ -232,22 +232,25 @@ p {
   overflow: hidden;
 }
 
-.nicho {
-  white-space: nowrap;
-  text-align: justify;
-  position: absolute;
-  top: 20%;
-  left: 75%;
-  transform-origin: top left;
-  transform: translate(-50%, -50%) rotate(0deg);
-  animation: rotateText 10s linear infinite;
-  color: #fff;
-  background-color: black;
-  -webkit-animation: rotateText 10s linear infinite;
-  -webkit-transform: translate(-50%, -50%) rotate(0deg);
-  -moz-transform: translate(-50%, -50%) rotate(0deg);
-  -ms-transform: translate(-50%, -50%) rotate(0deg);
-  -o-transform: translate(-50%, -50%) rotate(0deg);
+.nicho2 {
+  animation: destello 6s infinite;
+  color: red;
+  -webkit-animation: destello 6s infinite;
+  text-align: center;
+  background-color: #fff;
+  font-size: 24px;
+}
+
+@keyframes destello {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .texto {
@@ -255,13 +258,6 @@ p {
   background-color: black;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-}
-
-.nicho2 {
-  text-align: center;
-  color: #ffa500;
-  background-color: #fff;
   font-size: 24px;
 }
 
