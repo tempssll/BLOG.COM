@@ -1,47 +1,43 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #641e16;
   margin: 0;
   padding: 0;
+  color: #fff; /* Texto en color blanco */
 }
 
 .logo {
-  position: fixed; /* Se mantiene fija cuando me desplace para abajo */
-  bottom: 490px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
-  right: 10px; /* Ajusta esta posición según prefieras */
+  position: fixed;
+  bottom: 570px;
+  right: 10px;
   width: 100px;
   height: auto;
   z-index: 100;
 }
 
-/* Estilos para el contenedor principal */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+  border-radius: 10px;
 }
-
-/* Estilos para el encabezado 1 */
 
 .textocoy {
   background-color: gold;
   text-align: center;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-/* Estilos para el botón "Productos" */
-
-/* Estilos para las secciones "Café molido" y "Café en Grano" */
-#cafe-molido-section,
-#cafe-en-grano-section {
-  text-align: center;
-  padding: 20px;
-}
-
-/* Estilos para los productos de café */
 .product-item {
   display: inline-block;
   margin: 10px;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .product-image {
@@ -50,27 +46,28 @@ body {
   object-fit: cover;
   border: 1px solid #ddd;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .product-name {
   margin-top: 5px;
   font-weight: bold;
+  color: #fff;
 }
 
 .product-price {
   margin-top: 5px;
+  color: gold;
 }
 
 .textouno {
-  color: black;
   background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
 }
+
 .video {
-  width: 100%;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -81,13 +78,9 @@ body {
 .textocafe {
   background-color: gold;
   color: black;
-}
-
-/* Seccion de contacto */
-
-p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .contacto-section,
@@ -97,36 +90,38 @@ p {
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
   color: #ddd;
   text-align: center;
 }
 
 .cecion {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #ddd;
   text-align: center;
   border-radius: 10px;
   margin: 20px auto;
 }
 
-/* BOTON ESTILOS */
 .producto {
   color: gold;
   width: 20%;
   height: 60px;
   background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.productods-fixed {
-  position: fixed;
-  top: 10px; /* Distancia desde la parte superior de la ventana */
-  right: 10px; /* Distancia desde el borde derecho de la ventana */
-  z-index: 999; /* Asegura que el botón esté por encima de otros elementos */
+.producto:hover {
+  background-color: darkred; /* Cambio de color al pasar el ratón */
 }
+
 .precio {
   background-color: darkgreen;
   color: gold;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .precio2 {
@@ -137,19 +132,6 @@ p {
   color: gold;
 }
 
-/* ICONO WHAAPP */
-
-/* Estilos para el contenedor del ícono de WhatsApp */
-#whatsapp-icon {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-}
-
-.iconono {
-  width: 60%;
-}
 #whatsapp-icon {
   position: fixed;
   bottom: 20px;
@@ -161,19 +143,14 @@ p {
 }
 
 #whatsapp-icon img {
-  width: 99px; /* Ajusta el tamaño del icono como desees */
-  height: 80px; /* Ajusta el tamaño del icono como desees */
+  width: 99px;
+  height: 80px;
 }
 
 #whatsapp-icon span {
-  margin-top: 5px; /* Espacio entre el icono y el texto "Contacto" */
-  font-size: 12px; /* Tamaño del texto "Contacto" */
-  color: black; /* Color del texto "Contacto" */
-}
-
-.span {
-  background-color: red;
-  color: gold;
+  margin-top: 5px;
+  font-size: 12px;
+  color: black;
 }
 
 .precio3 {
@@ -185,10 +162,15 @@ p {
   width: 40%;
   background-color: black;
   color: gold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.precio4 {
-  color: darkgreen;
+
+.producto:hover {
+  background-color: #333; /* Cambio de color al pasar el ratón */
 }
+
 .inicio {
   width: 20%;
   height: 5%;
@@ -197,20 +179,74 @@ p {
   position: fixed;
   z-index: 9999;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
+
+.inicio:hover {
+  background-color: #333; /* Cambio de color al pasar el ratón */
+}
+
 .armenia {
   color: green;
   background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
 }
+
 @media (max-width: 768px) {
   .nicho {
     font-size: 14px;
   }
 }
 
-/* Pantallas aún más pequeñas */
 @media (max-width: 576px) {
   .nicho {
     font-size: 12px;
   }
+}
+
+.video3 {
+  width: 80%;
+  height: 30%;
+  background-color: black;
+  margin: 0 auto;
+  display: block;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#cafe-molido-section {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.precio-container {
+  display: inline-block;
+  text-align: left; /* Alinea el contenido de precios a la izquierda */
+}
+
+#cafe-en-grano-section {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.precio-container {
+  display: inline-block;
+  text-align: left; /* Alinea el contenido de precios a la izquierda */
 }

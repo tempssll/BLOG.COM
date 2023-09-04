@@ -4,6 +4,7 @@
     <title>COY-COFFEE</title>
     <link rel="stylesheet" href="styles2.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>COY COFFE</title>
   </head>
   <body>
@@ -16,21 +17,16 @@
     <!-- Encabezado 1 -->
     <h1 id="header1" class="textocoy">COY COFFE</h1>
 
-    <video class="video" id="video" width="640" height="360" controls autoplay>
+    <video class="video3" controls autoplay>
       <source src="video/cafe.mp4" type="video/mp4" />
       <!-- Agrega aquí formatos adicionales del video si lo deseas -->
       Tu navegador no admite el elemento de video.</video
     ><br /><br />
 
-    <!-- Botón de Productos -->
-    <button class="producto" onclick="toggleProductos()">Productos</button><br><br><br>
-  
 
 
     <div id="productosSection" style="display: none">
-      <h2 class="producto">CAFE MOLIDO  </h2>
-      <h2 class="producto">CAFE EN GRANO <br> <span class="precio4"> <br> <br>MEDIA LIBRA : 13.000<br><br>LIBRA POR : 26000</span> </h2><br><br><br><br>
-   
+
     </div>
 
     <!-- Sección "Café molido" -->
@@ -38,12 +34,26 @@
       <h1 class="textocafe">CAFE MOLIDO</h1>
       <br /><br />
       <!-- Aquí se cargarán las imágenes de café molido dinámicamente -->
-
-      <h1 class="precio">PRECIO</h1>
-      <h2 class="precio2">MEDIA LIBRA POR : <span class="precio3">13.000</span></h2>
-      <br />
-      <h2 class="precio2">UNA LIBRA POR : <span class="precio3">26.000 </span>  </h2>
+    
+      <div class="precio-container">
+        <h1 class="precio">PRECIO</h1>
+        <h2 class="precio2">MEDIA LIBRA POR: <span class="precio3">13.000</span></h2>
+        <br />
+        <h2 class="precio2">UNA LIBRA POR: <span class="precio3">26.000</span></h2>
+      </div>
     </div>
+    
+
+
+
+
+
+
+
+
+
+
+
     <br /><br /><br /><br />
 
     <!-- Sección "Café en Grano" -->
@@ -51,12 +61,16 @@
       <h1 class="textocafe">CAFÉ EN GRANO</h1>
       <br /><br /><br /><br />
       <!-- Aquí se cargarán las imágenes de café en grano dinámicamente -->
-
-      <h1 class="precio">PRECIO</h1>
-      <h2 class="precio2">MEDIA LIBRA POR : <span class="precio3">13.000</span></h2>
-      <br />
-      <h2 class="precio2">UNA LIBRA POR : <pan class="precio3">26.000 </pan> </h2>
+    
+      <div class="precio-container">
+        <h1 class="precio">PRECIO</h1>
+        <h2 class="precio2">MEDIA LIBRA POR: <span class="precio3">13.000</span></h2>
+        <br />
+        <h2 class="precio2">UNA LIBRA POR: <span class="precio3">26.000</span></h2>
+      </div>
     </div>
+    
+
   </body>
   <!-- Seccion de contacto -->
   <div class="contacto-section">
@@ -79,15 +93,19 @@
       se fusionan para brindarte una experiencia única en cada taza.
     </p>
    
-    <div id="whatsapp-icon">
-      <span class="span">Contacto</span>
-      
-      
-      <a href="https://wa.me/+3052076713" target="_blank" rel="noopener noreferrer">
-        <img src="iconow/icono.jpeg" alt="WhatsApp Icon" />
+   
+    <div class="fixed-bottom p-3">
+      <a
+        href="https://api.whatsapp.com/send?phone=3052076713"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="whatsapp-btn"
+      >
+        <i class="fab fa-whatsapp"></i> CONTACTO
       </a>
-
-      
     </div>
+
+
+
   <script src="app2.js"></script>
 </html>

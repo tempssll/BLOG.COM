@@ -3,7 +3,6 @@ const cafeMolido = [
   {
     id: 101,
     name: "CAFÉ MOLIDO",
-
     image: "cafeuno.jpeg",
   },
   {
@@ -61,7 +60,6 @@ const cafeMolido = [
   {
     id: 101,
     name: "CAFÉ MOLIDO",
-    price: 9000,
     image: "cafedies.jpeg",
   },
 ];

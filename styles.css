@@ -209,11 +209,12 @@ p {
 .video-section {
   background-color: black;
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .video-section video {
-  max-width: 100%;
+  max-width: 50%;
+  height: 60%;
 }
 
 .center-wrapper {
@@ -256,10 +257,6 @@ p {
   font-size: 24px;
 }
 
-.seccion2 {
-  color: saddlebrown;
-  background-color: saddlebrown;
-}
 .desarrollo {
   color: #fff;
   background-color: black;
@@ -270,10 +267,6 @@ p {
 }
 .cam {
   color: gold;
-}
-
-.seccion3 {
-  background-color: blue;
 }
 
 @keyframes rotateText {
@@ -304,4 +297,12 @@ p {
   .nicho {
     font-size: 12px;
   }
+}
+.video2 {
+  width: 70%;
+  height: 30%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
