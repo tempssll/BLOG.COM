@@ -1,9 +1,30 @@
 body {
+  max-width: 100%;
   font-family: "Arial", sans-serif;
   background-color: #641e16;
   margin: 0;
   padding: 0;
   color: #fff; /* Texto en color blanco */
+}
+
+/* Adaptando a dispositivos moviles */
+/* Aumenta el tamaño del botón de WhatsApp para móviles */
+@media (max-width: 576px) {
+  .whatsapp-btn {
+    padding: 20px 30px;
+  }
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajusta el tamaño de la fuente para dispositivos móviles */
+@media (max-width: 576px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 .logo {
@@ -249,4 +270,23 @@ body {
 .precio-container {
   display: inline-block;
   text-align: left; /* Alinea el contenido de precios a la izquierda */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  width: calc(
+    33.33% - 20px
+  ); /* 33.33% para tres columnas, -20px para el espacio entre ellas */
+  margin: 10px; /* Espacio entre las imágenes */
+  text-align: center; /* Alinea el contenido al centro */
+  box-sizing: border-box; /* Evita que los márgenes afecten el tamaño total */
+}
+
+.image-item img {
+  max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto */
 }

@@ -25,6 +25,10 @@ body {
   height: 50px;
   animation: spin 2s linear infinite;
   -webkit-animation: spin 2s linear infinite;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /* Estilos para ocultar el contenido principal hasta que el splash desaparezca */
@@ -88,8 +92,8 @@ body {
 
 /* Estilos para el botón VER */
 .btnver {
-  width: 100%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
-  padding: 10px; /* Añadido relleno para hacer el botón más legible */
+  width: 200%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+  padding: 20px; /* Añadido relleno para hacer el botón más legible */
   box-sizing: border-box; /* Cambiado el valor a 'border-box' para incluir el relleno en el ancho */
   cursor: pointer;
   background-color: blue;
@@ -157,6 +161,10 @@ body {
 .whatsapp-btn:hover {
   transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 /* SECCION DE CONTACTO */
