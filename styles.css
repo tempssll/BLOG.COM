@@ -156,6 +156,10 @@ body {
   -moz-transition: transform 0.2s, box-shadow 0.2s;
   -ms-transition: transform 0.2s, box-shadow 0.2s;
   -o-transition: transform 0.2s, box-shadow 0.2s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .whatsapp-btn:hover {
@@ -217,12 +221,11 @@ p {
 .video-section {
   background-color: black;
   text-align: center;
-  padding: 20px 0;
 }
 
 .video-section video {
-  max-width: 50%;
-  height: 60%;
+  max-width: 70%;
+  height: 80%;
 }
 
 .center-wrapper {
