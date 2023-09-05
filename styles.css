@@ -46,8 +46,22 @@ body {
   left: 0px;
   width: 40%;
   height: 10%;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  perspective: 1000px; /* Define la perspectiva para el efecto 3D */
+  transform-style: preserve-3d; /* Conserva el efecto 3D en los elementos hijos */
+  transition: transform 0.3s; /* Agrega una transición para suavizar la animación */
+}
+
+#toggleButton:hover {
+  transform: rotateY(20deg);
+  /*Aplicalarotación3DenelejeYalhacerhover*/
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#toggleButton:active {
+  transform: rotateY(0deg); /* Restaura la rotación 3D al hacer clic */
+  transition: transform 0.1s; /* Ajusta la duración de la animación al hacer clic */
 }
 
 .sidebar {
@@ -57,10 +71,10 @@ body {
   /*Labarraestaráocultafueradelladoizquierdo*/
   width: 250px;
   height: 100%;
-  background-color: slategray;
+  background-color: #154360;
   padding: 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .sidebar a {
@@ -314,12 +328,4 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-
-@media (max-width: 768px) {
-  .logo {
-    bottom: 570px; /* Ajusta la posición vertical para dispositivos móviles */
-    right: 5px; /* Ajusta la posición horizontal para dispositivos móviles */
-    width: 80px; /* Ajusta el tamaño del logo para dispositivos móviles */
-  }
 }
