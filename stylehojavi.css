@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #154360;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.left-column {
+  flex: 0.5;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.right-column {
+  flex: 2;
+}
+
+.hoja {
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.estudios {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lista {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.profile-picture {
+  width: 100px; /* Ajusta el ancho de la imagen según tu preferencia */
+  height: auto; /* Mantén la relación de aspecto original */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  position: fixed; /* Hace que la imagen tenga una posición fija */
+  top: 20px; /* Ajusta la posición vertical desde la parte superior */
+  left: 20px; /* Ajusta la posición horizontal desde la izquierda */
+}
