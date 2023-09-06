@@ -8,7 +8,7 @@ body {
 /* Estilos para el logotipo */
 .logo {
   position: fixed; /* Se mantiene fija cuando me desplace para abajo */
-  bottom: 550px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
+  bottom: 590px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
   right: 10px; /* Ajusta esta posición según prefieras */
   width: 99px;
   height: auto;
@@ -44,14 +44,16 @@ body {
   position: fixed;
   top: 40px;
   left: 0px;
-  width: 40%;
+  width: 55%;
   height: 10%;
   font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  perspective: 1000px; /* Define la perspectiva para el efecto 3D */
-  transform-style: preserve-3d; /* Conserva el efecto 3D en los elementos hijos */
-  transition: transform 0.3s; /* Agrega una transición para suavizar la animación */
+  perspective: 1000px;
+  /*Definelaperspectivaparaelefecto3D*/
+  transform-style: preserve-3d;
+  /*Conservaelefecto3Denloselementoshijos*/
+  transition: transform 0.3s;
 }
 
 #toggleButton:hover {
@@ -61,8 +63,9 @@ body {
 }
 
 #toggleButton:active {
-  transform: rotateY(0deg); /* Restaura la rotación 3D al hacer clic */
-  transition: transform 0.1s; /* Ajusta la duración de la animación al hacer clic */
+  transform: rotateY(0deg);
+  /*Restauralarotación3Dalhacerclic*/
+  transition: transform 0.1s;
 }
 
 .sidebar {
