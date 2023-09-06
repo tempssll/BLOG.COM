@@ -13,7 +13,7 @@ body {
 }
 
 .left-column {
-  flex: 3;
+  flex: 1;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .profile-picture {
-  width: 100px; /* Ajusta el ancho de la imagen según tu preferencia */
+  width: 90px; /* Ajusta el ancho de la imagen según tu preferencia */
   height: auto; /* Mantén la relación de aspecto original */
   border-radius: 50%;
   object-fit: cover;
