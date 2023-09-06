@@ -47,7 +47,8 @@ body {
   width: 40%;
   height: 10%;
   font-size: 25px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   perspective: 1000px; /* Define la perspectiva para el efecto 3D */
   transform-style: preserve-3d; /* Conserva el efecto 3D en los elementos hijos */
   transition: transform 0.3s; /* Agrega una transición para suavizar la animación */
@@ -104,7 +105,7 @@ body {
   width: 20;
   color: gold;
   background-color: black;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* Estilos para el botón VER */
@@ -241,7 +242,7 @@ p {
 }
 
 .video-section video {
-  max-width: 120%;
+  max-width: 90%;
   height: 90%;
 }
 
