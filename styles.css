@@ -242,8 +242,8 @@ p {
 }
 
 .video-section video {
-  max-width: 90%;
-  height: 90%;
+  max-width: 92%;
+  height: 91%;
 }
 
 .center-wrapper {
@@ -259,6 +259,7 @@ p {
   text-align: center;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-animation: destello 4s infinite;
 }
 
 @keyframes destello {
