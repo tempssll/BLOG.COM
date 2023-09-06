@@ -66,7 +66,8 @@ body {
   object-fit: cover;
   border: 2px solid white;
   position: fixed; /* Hace que la imagen tenga una posición fija */
-  top: 20px; /* Ajusta la posición vertical desde la parte superior */
+  top: 20px; /* Ajusta la posición vertical desde la parte superio
+  r */
   left: 20px; /* Ajusta la posición horizontal desde la izquierda */
 }
 
