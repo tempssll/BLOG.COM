@@ -4,5 +4,5 @@ var btnEnlace = document.getElementById("enlaceLibro");
 // Agrega un evento de clic al botón
 btnEnlace.addEventListener("click", function () {
   // Abre una nueva ventana
-  window.open("/Libro/index.html", "_blank");
+  window.open("Libro/index.html", "_blank");
 });
