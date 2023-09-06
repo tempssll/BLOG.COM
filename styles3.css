@@ -56,9 +56,9 @@ body {
   position: fixed;
   z-index: 9999;
   cursor: pointer;
-  margin-top: 325px;
-  padding: 25px;
-  font-size: 17px;
+  margin-top: -470px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 /* SECCION DE CONTACTO */
@@ -112,4 +112,14 @@ p {
   padding: 15px;
   background-color: black;
   color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.parrafo {
+  color: white;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
 }
