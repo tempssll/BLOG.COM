@@ -56,6 +56,9 @@ body {
   position: fixed;
   z-index: 9999;
   cursor: pointer;
+  margin-top: 325px;
+  padding: 25px;
+  font-size: 17px;
 }
 
 /* SECCION DE CONTACTO */
@@ -101,4 +104,12 @@ p {
 
 .social-media a:hover {
   text-decoration: underline;
+}
+
+.libroweb {
+  width: 30%;
+  height: 60%;
+  padding: 15px;
+  background-color: black;
+  color: white;
 }

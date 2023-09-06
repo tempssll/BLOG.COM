@@ -1,11 +1,6 @@
 body {
   background-color: #154360;
 }
-/* Estilos para el logotipo */
-/* Estilos para el logotipo */
-/* Estilos para el logotipo */
-/* Estilos para el logotipo */
-/* Estilos para el logotipo */
 .logo {
   position: fixed; /* Se mantiene fija cuando me desplace para abajo */
   bottom: 590px; /* Ajusta esta posición según prefieras (mayor valor para mover hacia arriba) */
@@ -44,9 +39,9 @@ body {
   position: fixed;
   top: 40px;
   left: 0px;
-  width: 50%;
+  width: 45%;
   height: 10%;
-  font-size: 28px;
+  font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   perspective: 1000px;
@@ -79,7 +74,7 @@ body {
   /*Labarraestaráocultafueradelladoizquierdo*/
   width: 250px;
   height: 200%;
-  background-color: #154360;
+  background-color: black;
   padding: 0px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif "Lucida Sans",
     Arial, sans-serif;
