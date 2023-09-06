@@ -13,7 +13,7 @@ body {
 }
 
 .left-column {
-  flex: 0.5;
+  flex: 3;
   text-align: center;
 }
 
