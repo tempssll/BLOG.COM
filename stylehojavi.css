@@ -36,6 +36,16 @@ body {
   background-color: white;
 }
 
+.titular {
+  color: white;
+}
+
+.parrafo {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
 .estudios {
   text-align: center;
   color: gold;
