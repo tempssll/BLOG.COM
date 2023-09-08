@@ -112,11 +112,11 @@ body {
 
 /* Estilos para el botón VER */
 .btnver {
-  width: 200%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+  width: 190%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
   padding: 20px; /* Añadido relleno para hacer el botón más legible */
   box-sizing: border-box; /* Cambiado el valor a 'border-box' para incluir el relleno en el ancho */
   cursor: pointer;
-  background-color: blue;
+  background-color: black;
   color: white;
   margin-top: 9px;
 }
