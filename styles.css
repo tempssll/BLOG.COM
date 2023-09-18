@@ -59,7 +59,8 @@ body {
 
 #toggleButton:hover {
   transform: rotateY(20deg);
-  /*Aplicalarotación3DenelejeYalhacerhover*/box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  /*Aplicalarotación3DenelejeYalhacerhover*/
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   -webkit-transform: rotateY(20deg);
   -moz-transform: rotateY(20deg);
   -ms-transform: rotateY(20deg);
@@ -216,7 +217,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   animation: marquee 10s linear infinite;
-  -webkit-animation: marquee 10s linear infinite;
+  -webkit-animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
