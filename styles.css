@@ -36,10 +36,12 @@ body {
 
 /* Estilos para boton categorias */
 #toggleButton {
+  background-color: black;
+  color: white;
   position: fixed;
   top: 40px;
   left: 0px;
-  width: 45%;
+  width: 30%;
   height: 10%;
   font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -57,8 +59,11 @@ body {
 
 #toggleButton:hover {
   transform: rotateY(20deg);
-  /*Aplicalarotación3DenelejeYalhacerhover*/
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  /*Aplicalarotación3DenelejeYalhacerhover*/box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  -webkit-transform: rotateY(20deg);
+  -moz-transform: rotateY(20deg);
+  -ms-transform: rotateY(20deg);
+  -o-transform: rotateY(20deg);
 }
 
 #toggleButton:active {
@@ -111,15 +116,6 @@ body {
 }
 
 /* Estilos para el botón VER */
-.btnver {
-  width: 190%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
-  padding: 20px; /* Añadido relleno para hacer el botón más legible */
-  box-sizing: border-box; /* Cambiado el valor a 'border-box' para incluir el relleno en el ancho */
-  cursor: pointer;
-  background-color: black;
-  color: white;
-  margin-top: 9px;
-}
 
 /* CATEGORIAS BARRA LATERAL */
 .categorias {
