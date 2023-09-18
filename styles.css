@@ -217,6 +217,19 @@ body {
   text-align: center;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 20s linear infinite;
+  -webkit-animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .listase {
