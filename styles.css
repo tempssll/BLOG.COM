@@ -213,24 +213,14 @@ body {
 }
 
 .nicho2 {
-  animation: destello 4s infinite;
   color: red;
   text-align: center;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  -webkit-animation: destello 4s infinite;
 }
 
-@keyframes destello {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.listase {
+  color: gold;
 }
 
 .texto {
