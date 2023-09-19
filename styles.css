@@ -218,23 +218,7 @@ body {
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   overflow: hidden;
-  animation: marquee 22s linear infinite;
-  -webkit-animation: marquee 22s linear infinite;
 }
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -o-transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 .listase {
   color: gold;
   font-family: "Times New Roman", Times, serif;
