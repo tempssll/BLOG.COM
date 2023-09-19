@@ -11,6 +11,14 @@ body {
 }
 
 /* Estilos para dispositivos móviles (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Logo en dispositivos móviles */
+  .logo {
+    position: fixed;
+    width: 100%;
+    max-width: 90px; /* Ajusta el tamaño según sea necesario */
+  }
+}
 
 /* Estilos para el Splash Screen */
 .loader {
@@ -70,6 +78,10 @@ body {
   transform: rotateY(0deg);
   /*Restauralarotación3Dalhacerclic*/
   transition: transform 0.1s;
+  -webkit-transition: transform 0.1s;
+  -moz-transition: transform 0.1s;
+  -ms-transition: transform 0.1s;
+  -o-transition: transform 0.1s;
 }
 
 .sidebar {
@@ -178,6 +190,8 @@ body {
   -o-border-radius: 4px;
 }
 
+/* Botón de WhatsApp en dispositivos móviles */
+
 .whatsapp-btn:hover {
   transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -212,11 +226,10 @@ body {
   color: red;
   text-align: center;
   font-size: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  white-space: nowrap;
+  font-family: "Times New Roman", Times, serif;
   overflow: hidden;
-  animation: marquee 10s linear infinite;
-  -webkit-animation: marquee 15s linear infinite;
+  animation: marquee 22s linear infinite;
+  -webkit-animation: marquee 22s linear infinite;
 }
 
 @keyframes marquee {
