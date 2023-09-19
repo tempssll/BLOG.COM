@@ -214,11 +214,24 @@ body {
 
 .nicho2 {
   color: red;
+  /*Cambiamoselcoloragold*/
   text-align: center;
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   overflow: hidden;
+  animation: destello 3s infinite alternate;
+  -webkit-animation: destello 3s infinite alternate;
 }
+
+@keyframes destello {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .listase {
   color: gold;
   font-family: "Times New Roman", Times, serif;
