@@ -178,16 +178,10 @@ body {
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+  z-index: 100;
+  cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
-  -webkit-transition: transform 0.2s, box-shadow 0.2s;
-  -moz-transition: transform 0.2s, box-shadow 0.2s;
-  -ms-transition: transform 0.2s, box-shadow 0.2s;
-  -o-transition: transform 0.2s, box-shadow 0.2s;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 /* Botón de WhatsApp en dispositivos móviles */
@@ -195,10 +189,6 @@ body {
 .whatsapp-btn:hover {
   transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
 }
 
 /* SECCION DE CONTACTO */
