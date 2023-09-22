@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
       mainContent.style.display = "block";
     },
     0,
-    2
+    1
   ); // Cambia este valor para ajustar el tiempo de espera
 
   // Agregar evento de clic al contenido principal para cerrar la barra lateral
