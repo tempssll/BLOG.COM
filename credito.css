@@ -12,8 +12,6 @@ h1 {
   padding: 20px;
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
-    
-
 }
 
 ul.creditos {
@@ -44,7 +42,7 @@ ul.creditos {
   /*Animacióninfinita*/
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
-  -webkit-animation: mostrar 5s linear infinite;
+  -webkit-animation: mostrar 15s linear infinite;
 }
 
 @keyframes mostrar {

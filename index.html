@@ -1,34 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECH7</title>
     <link rel="icon" href="logo/logo-color.png" type="image/x-icon" />
-
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+JxEha8CQv1meb6G5CkLc5e7Hl7u8Xn0i4rE5v5dSM9dAiN"
-      crossorigin="anonymous"
-    />
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"rel="stylesheet"/>
+    <!-- Estilos app -->
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Splash Screen -->
+</head>
+  
 
+  <body>
+
+    <!-- Splash Screen -->
     <div id="splash-screen">
       <div class="splash-content">
         <!-- Aquí puedes agregar tu logotipo o cualquier otro contenido del splash -->
         <div class="loader"></div>
       </div>
     </div>
-
     <!-- 
 <!MENSAJE METODO DE PAGO-- 
   <div id="splash-screen">PONTE AL DIA ACTUALIZA EL PAGO</div>
@@ -49,17 +43,20 @@
 
       <img class="logo" src="logo/logo.png" alt="Logotipo de TECHCOYR7" />
 
-      <!-- Aquí va el contenido principal de tu página -->
 
       <!-- Botón VER -->
-      <button  id="toggleButton" onclick="toggleSidebar()">
-        CATEGORIAS</button
-      ><br /><br />
+      <button  id="toggleButton" onclick="toggleSidebar()">CATEGORIAS</button>
 
+
+  
+      <!-- Información -->
       <h1 class="nicho2">
         Tech Navegando el Universo del Software y la Innovación.
       </h1><br><br<br>
 
+
+  
+      <!-- Informacion -->
       <ul class="listase">
         <li>Páginas web</li><br>
         <li>Sistemas web</li><br>
@@ -67,12 +64,12 @@
         <li>Cursos</li><br>
         <li>Catalogo de venta para tu empresa</li><br>
         <li>Mi libro</li>
-        
-     
       </ul>
       <br />
       <br /><br />
 
+
+      <!-- Texto de la pagina principal -->
       <p class="texto">
         Ofrezco soporte especializado en plataformas de catálogo de venta de
         productos. Si eres dueño de una empresa, te brindo la oportunidad de
@@ -85,40 +82,23 @@
       </p>
       <br /><br />
 
-      <div class="sidebar" id="sidebar">
-        <a href="#" class="categorias"
-          ><i class="fas fa-folder"></i> CATEGORIAS</a
-        ><br />
-        <a href="servicio.html" class="seccion3"
-          ><i class="fas fa-cogs"></i> SERVICIOS</a
-        ><br />
-        <a href="coycoffee.html" class="seccion2"
-          ><i class="fas fa-coffee"></i> VENTA DE CAFE</a
-        ><br />
-        <a href="Hojavida.html" class="seccion"
-          ><i class="fas fa-file-alt"></i> HOJA DE VIDA</a
-        ><br />
-        <a href="producto.html" class="seccion"
-          ><i class="fas fa-shopping-cart"></i> PRODUCTOS</a
-        ><br />
-        <a href="libro.html" class="seccion"
-          ><i class="fas fa-book"></i> LIBRO</a
-        ><br />
-        <a href="#" class="seccion"
-          ><i class="fas fa-laptop-code"></i> CURSOS SOFTWARE</a
-        ><br />
-        <a href="creditos.html" class="seccion"
-          ><i class="fas fa-credit-card"></i> CREDITOS</a
-        ><br />
-        <a href="#" class="seccion"
-        ><i class="fas fa-credit-card"></i>ATRAS</a
-      ><br />
-        <!-- Cierra el div esta seccion -->
-      </div>
-      <!-- Contenido del menú seleccionado -->
-      <div id="menu-content"></div>
-    </div>
 
+      <!-- Seccion de la barra de desplazamiento del boton Categorias -->
+      <div class="sidebar" id="sidebar">
+        <a href="#" class="categorias">CATEGORIAS</a><br />
+        <a href="servicio.html" class="seccion3">SERVICIOS</a><br />
+        <a href="coycoffee.html" class="seccion2">VENTA DE CAFE</a><br />
+        <a href="Hojavida.html" class="seccion">HOJA DE VIDA</a><br />
+        <a href="producto.html" class="seccion">PRODUCTOS</a><br />
+        <a href="libro.html" class="seccion">LIBRO</a><br />
+        <a href="#" class="seccion">CURSOS SOFTWARE</a><br />
+        <a href="creditos.html" class="seccion">CREDITOS</a><br />
+        <a href="#" class="seccion">ATRAS</a><br />
+      </div>  
+  </div>
+
+  
+    <!-- Video de la pagina principal -->    
     <div class="video-section">
       <video controls autoplay>
         <source src="logo/papeleria1.mp4" type="video/mp4" />
@@ -127,6 +107,8 @@
     </div>
     <br /><br />
 
+
+    <!-- Texto de la pagina principal -->
     <p class="texto">
       La tecnología impulsa el desarrollo de software, y juntos fomentan la
       innovación constante. Desde la programación hasta la inteligencia
@@ -138,27 +120,22 @@
     </p>
     <br /><br />
 
-    <!-- BOTON DE WHATSAPP -->
-
+   
     <!-- BOTON DE WHATSAPP (con Bootstrap) -->
-
-    <div class="fixed-bottom p-3">
-      <a
+    <div class="fixed-bottom p-3"><a
         href="https://api.whatsapp.com/send?phone=3052076713"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="whatsapp-btn"
-      >
+        target="_blank"rel="noopener noreferrer"class="whatsapp-btn">
         <i class="fab fa-whatsapp"></i> CONTACTO
       </a>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"crossorigin="anonymous"></script>
+
+    <!-- Script del funcionamiento de la aplicación -->
     <script src="script.js"></script>
 
+      <!-- Información de contacto -->
     <div class="contact-section">
       <div class="contact-content">
         <h2>CONTACTO</h2>
@@ -169,5 +146,17 @@
         <p>EMAIL: brayan324554@gmail.com</p>
       </div>
     </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
   </body>
+
 </html>
