@@ -36,3 +36,21 @@ function showMenuContent(menuItem) {
   const menuContent = document.getElementById("menu-content");
   menuContent.innerHTML = `Has seleccionado ${menuItem}. Aquí se mostraría el contenido correspondiente al menú.`;
 }
+
+/* ACTUALIZAR LA FECHA CADA AÑO */
+function actualizarFecha() {
+  // Obtenemos la fecha actual
+  var fechaActual = new Date();
+
+  // Obtenemos el año actual
+  var añoActual = fechaActual.getFullYear();
+
+  // Actualizamos el contenido del elemento HTML con el año actual
+  document.getElementById("fecha").textContent = "Año actual: " + añoActual;
+}
+
+// Llamamos a la función para actualizar la fecha cuando se carga la página
+actualizarFecha();
+
+// Programamos la actualización anual usando setInterval
+setInterval(actualizarFecha, 1000 * 60 * 60 * 24 * 365); // Actualizar cada 365 días

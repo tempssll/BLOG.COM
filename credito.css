@@ -45,6 +45,7 @@ ul.creditos {
   -webkit-animation: mostrar 15s linear infinite;
 }
 
+
 @keyframes mostrar {
   0%,
   100% {
