@@ -1,5 +1,7 @@
 body {
   background-color: #154360;
+  margin: 0;
+  padding: 0;
 }
 .logo {
   position: fixed; /* Se mantiene fija cuando me desplace para abajo */
@@ -125,6 +127,8 @@ body {
   color: gold;
   background-color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* Estilos para el botón VER */
@@ -305,6 +309,8 @@ body {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .contact-content {
