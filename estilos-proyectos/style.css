@@ -29,3 +29,29 @@ video {
   margin-right: auto;
   display: block;
 }
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas */
+  body {
+    font-size: 20px;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .inicio {
+    width: 100%;
+  }
+}
+
+/* Boton de inicio */
+.inicio2 {
+  position: fixed;
+  font-size: 40px;
+  color: red;
+  background-color: black;
+  /* Ajusta esta cantidad para cambiar la distancia desde abajo */
+  bottom: 10px; /* Ajusta esta cantidad para cambiar la distancia desde la parte inferior */
+  left: 5px; /* Ajusta esta cantidad para cambiar la distancia desde la izquierda */
+  cursor: pointer;
+}
