@@ -1,0 +1,22 @@
+body {
+  background-color: whitesmoke;
+}
+
+.proyec,
+.proyecto2 {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+video {
+  display: block; /* Hace que el video sea un elemento de bloque */
+  margin: 0 auto;
+  border: 1px solid black; /* Centra horizontalmente el video */
+}
+
+.regis {
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
