@@ -22,14 +22,14 @@ p {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  height: 100vh;
+  height: 40vh;
 }
 
 .java {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  height: 70vh;
+  height:40vh;
 }
 
 h3 {
@@ -43,15 +43,15 @@ h3 {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    height: 65vh;
+    height: 40vh;
   }
 
   .java {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    height: 35vh;
+    height: 20vh;
   }
-  
+
   /* Adaptar mas... */
 }
