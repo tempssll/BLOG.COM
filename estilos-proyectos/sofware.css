@@ -35,3 +35,23 @@ p {
 h3 {
   text-align: center;
 }
+
+/* media querys para adaptarlos a los dispositivos  moviles ****************************************************************** */
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas con un ancho igual o menor a 768px */
+  .pse {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 65vh;
+  }
+
+  .java {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 35vh;
+  }
+  
+  /* Adaptar mas... */
+}
