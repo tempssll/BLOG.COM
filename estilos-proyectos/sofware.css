@@ -1,14 +1,14 @@
 h1 {
-  color: gold;
+  color: red;
   text-align: center;
 }
 
 ul {
-  color: darkblue;
+  color: blue;
 }
 
 h2 {
-  color: gold;
+  color: red;
   text-align: center;
 }
 
@@ -30,4 +30,8 @@ p {
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
   height: 70vh;
+}
+
+h3 {
+  text-align: center;
 }
