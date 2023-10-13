@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   color: red;
   text-align: center;
@@ -56,4 +61,47 @@ h3 {
     align-items: center; /* Centra verticalmente */
     height: 20vh; /* Altura adaptada para móviles */
   }
+}
+
+.contact-section {
+  text-align: center; /* Alinea el contenido horizontalmente al centro */
+  background-color: black; /* Establece el fondo en negro */
+  color: white; /* Cambia el color del texto a blanco para que sea visible en el fondo negro */
+}
+
+.contact-section h3 {
+  text-align: center;
+  font-size: 24px; /* Tamaño de fuente para el título */
+  margin-top: 0; /* Elimina el margen superior predeterminado */
+  color: #333; /* Color del texto */
+}
+
+.contact-section p {
+  text-align: center;
+  margin: 10px 0; /* Agrega espacio entre los párrafos */
+  font-size: 16px; /* Tamaño de fuente para los párrafos */
+  color: #666; /* Color del texto */
+}
+
+#fecha {
+  font-size: 12px; /* Tamaño de fuente para la fecha */
+  color: #999; /* Color del texto de la fecha */
+}
+
+video {
+  display: block; /* Hace que el video sea un elemento de bloque */
+  margin: 0 auto;
+  border: 1px solid black; /* Centra horizontalmente el video */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  display: block; /* Hace que el video sea un elemento de bloque */
+  margin: 0 auto;
+  border: 1px solid black; /* Centra horizontalmente el video */
+  width: 80%;
+  height: 20%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
