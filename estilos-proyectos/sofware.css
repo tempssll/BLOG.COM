@@ -1,0 +1,33 @@
+h1 {
+  color: gold;
+  text-align: center;
+}
+
+ul {
+  color: darkblue;
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.pse {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh;
+}
+
+.java {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 70vh;
+}
