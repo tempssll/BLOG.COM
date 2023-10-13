@@ -59,7 +59,7 @@ h3 {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    height: 20vh; /* Altura adaptada para móviles */
+    height: 14vh; /* Altura adaptada para móviles */
   }
 }
 
