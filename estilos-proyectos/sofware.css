@@ -1,6 +1,18 @@
 body {
   margin: 0;
-  padding: 0;
+}
+
+.inicio {
+  width: 20%;
+  height: 5%;
+  background-color: black;
+  color: gold;
+  position: fixed;
+  margin-top: -27px;
+  z-index: 9999;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
 h1 {
