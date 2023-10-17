@@ -355,16 +355,50 @@ p {
 
 /* Formulario de contacto */
 
-/* Estilizar campos de entrada de texto y textarea */
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
+/* Estilos para formulario de contacto */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
-.form {
+.form2 {
   text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+/* Estilo de etiquetas y campos de entrada */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo del botón de envío */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilo al pasar el cursor sobre el botón */
+input[type="submit"]:hover {
+  background-color: #0056b3;
 }
