@@ -312,7 +312,7 @@ body {
   color: white;
   padding: 2px;
   bottom: 0;
-  width: 100%;
+  width: 120%;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -351,4 +351,20 @@ p {
 
 .social-media a:hover {
   text-decoration: underline;
+}
+
+/* Formulario de contacto */
+
+/* Estilizar campos de entrada de texto y textarea */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.form {
+  text-align: center;
 }
