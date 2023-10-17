@@ -312,15 +312,11 @@ body {
   color: white;
   padding: 2px;
   bottom: 0;
-  width: 120%;
+  width: 106%;
+  padding: 0;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-}
-
-.contact-content {
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 h2 {
