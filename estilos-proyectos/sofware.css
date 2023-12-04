@@ -2,17 +2,15 @@ body {
   margin: 0;
 }
 
+/* Boton de inicio */
 .inicio {
-  width: 20%;
-  height: 5%;
-  background-color: black;
-  color: gold;
   position: fixed;
-  margin-top: -27px;
-  z-index: 9999;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
+  font-size: 20px;
+  color: red;
+  background-color: black;
+  /* Ajusta esta cantidad para cambiar la distancia desde abajo */
+  bottom: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la parte inferior */
+  left: 10px; /* Ajusta esta cantidad para cambiar la distancia desde la izquierda */
 }
 
 h1 {

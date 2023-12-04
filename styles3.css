@@ -141,9 +141,10 @@ p {
   line-height: 2;
 }
 
+/* Boton de inicio */
 .inicio2 {
   position: fixed;
-  font-size: 40px;
+  font-size: 20px;
   color: red;
   background-color: black;
   /* Ajusta esta cantidad para cambiar la distancia desde abajo */

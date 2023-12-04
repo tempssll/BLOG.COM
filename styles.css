@@ -113,7 +113,7 @@ body {
 
 .inicio {
   position: fixed;
-  font-size: 40px;
+  font-size: 20px;
   color: red;
   background-color: black;
   /* Ajusta esta cantidad para cambiar la distancia desde abajo */
