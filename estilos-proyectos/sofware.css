@@ -74,23 +74,19 @@ h3 {
 }
 
 .contact-section {
-  text-align: center; /* Alinea el contenido horizontalmente al centro */
-  background-color: black; /* Establece el fondo en negro */
-  color: white; /* Cambia el color del texto a blanco para que sea visible en el fondo negro */
+  background-color: black;
+  color: white;
+  padding: 0px;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.contact-section h3 {
+.centrarcon {
   text-align: center;
-  font-size: 24px; /* Tamaño de fuente para el título */
-  margin-top: 0; /* Elimina el margen superior predeterminado */
-  color: #333; /* Color del texto */
-}
-
-.contact-section p {
-  text-align: center;
-  margin: 10px 0; /* Agrega espacio entre los párrafos */
-  font-size: 16px; /* Tamaño de fuente para los párrafos */
-  color: #666; /* Color del texto */
 }
 
 #fecha {
