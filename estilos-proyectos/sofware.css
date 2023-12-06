@@ -159,3 +159,42 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+/* Otroo */
+
+/* Agrega este bloque de CSS en tu archivo de estilos */
+/* Agrega este bloque de CSS en tu archivo de estilos */
+.search-container {
+  width: 95%;
+  position: fixed;
+}
+
+#searchInput {
+  border: none;
+  padding-right: 20px;
+  color: black !important; /* Agrega !important */
+}
+
+.clear-search {
+  position: absolute;
+  right: -15px;
+  top: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-weight: bold;
+  color: red;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+#searchInput::placeholder {
+  text-align: center;
+  color: black;
+}
+
+#searchInput {
+  border: 2px solid black; /* Borde negro */
+  text-align: center; /* Centrar el texto */
+}

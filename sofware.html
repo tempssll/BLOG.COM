@@ -9,6 +9,16 @@
   </head>
   <body>
     
+<!-- Agrega este bloque de código para el campo de búsqueda -->
+<div class="search-container">
+  <input type="text"  id="searchInput" placeholder="Buscar..." oninput="handleInput()">
+  <button onclick="search()">Buscar</button>
+  <span class="clear-search" onclick="clearSearch()">X</span>
+</div>
+
+
+
+
     <h1>Introducción</h1><br>
 
       <ul>
@@ -353,7 +363,9 @@
       <a href="index.html">
         <button class="inicio">INICIO</button>
       </a>
-
+<script src="script.js"></script>
+<!-- Agrega este enlace a fuse.js -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
 
     </body>
 </html>
