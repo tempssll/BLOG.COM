@@ -50,14 +50,18 @@ body {
   position: fixed;
   margin-top: -60px;
   color: white;
-  width: auto;
-  /*Anchoautomáticoparaadaptarsealcontenido*/padding: 10px 20px;
-  /*Espaciadointernoparahacerlomásgrandeenpantallaspequeñas*/font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",    "Lucida Sans", Arial, sans-serif;
+  width: 20%;
+  height: 8%;
+  /*Anchoautomáticoparaadaptarsealcontenido*/
+  /*Espaciadointernoparahacerlomásgrandeenpantallaspequeñas*/
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   perspective: 1000px;
-  /*Definelaperspectivaparaelefecto3D*/transform-style: preserve-3d;
-  /*Conservaelefecto3Denloselementoshijos*/transition: transform 0.3s;
-
+  /*Definelaperspectivaparaelefecto3D*/
+  transform-style: preserve-3d;
+  /*Conservaelefecto3Denloselementoshijos*/
+  transition: transform 0.3s;
 }
 
 #toggleButton:hover {
@@ -306,7 +310,7 @@ body {
   color: white;
   padding: 2px;
   bottom: 0;
-  width: 106%;
+  width: 100%;
   padding: 0;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
