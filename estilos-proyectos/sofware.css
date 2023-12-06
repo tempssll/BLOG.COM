@@ -49,7 +49,7 @@ h3 {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  height: 100vh;
+  height: 65vh;
 }
 
 /* Media query para adaptar a dispositivos móviles */
@@ -165,7 +165,7 @@ input[type="submit"]:hover {
 /* Agrega este bloque de CSS en tu archivo de estilos */
 /* Agrega este bloque de CSS en tu archivo de estilos */
 .search-container {
-  width: 95%;
+  width: 90%;
   position: fixed;
 }
 
@@ -195,6 +195,6 @@ input[type="submit"]:hover {
 }
 
 #searchInput {
-  border: 2px solid black; /* Borde negro */
+  border: 1px solid black; /* Borde negro */
   text-align: center; /* Centrar el texto */
 }

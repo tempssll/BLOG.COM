@@ -55,8 +55,7 @@ actualizarFecha();
 // Programamos la actualización anual usando setInterval
 setInterval(actualizarFecha, 1000 * 60 * 60 * 24 * 365); // Actualizar cada 365 días
 
-/* Buscador de texto */
-// Crea una instancia de Fuse con tu lista de enlaces y opciones
+/* Funcion de  Buscador de texto */
 var fuse;
 document.addEventListener("DOMContentLoaded", function () {
   var options = {
