@@ -415,3 +415,17 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+/* Lista ul  */
+ul {
+  list-style: none;
+}
+
+ul li::after {
+  content: "\00B7"; /* Punto medio Unicode */
+  margin-left: 5px; /* Ajusta el espacio entre el enlace y el punto */
+}
+
+.des {
+  background-color: blue;
+}
