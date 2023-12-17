@@ -12,6 +12,25 @@ body {
   z-index: 100;
 }
 
+section {
+  padding: 20px;
+  background-color: #154360;
+}
+
+/* Estilo para los elementos details */
+details {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Estilo para los elementos details cuando están abiertos */
+details[open] {
+  background-color: #e0e0e0;
+}
+
 /* Estilos para dispositivos móviles (max-width: 768px) */
 @media (max-width: 768px) {
   /* Logo en dispositivos móviles */
