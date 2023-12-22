@@ -11,6 +11,7 @@ body {
   /* Ajusta esta cantidad para cambiar la distancia desde abajo */
   bottom: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la parte inferior */
   left: 10px; /* Ajusta esta cantidad para cambiar la distancia desde la izquierda */
+  cursor: pointer;
 }
 
 h1 {
@@ -167,7 +168,6 @@ input[type="submit"]:hover {
 .search-container {
   width: 90%;
   position: fixed;
-  
 }
 
 #searchInput {
