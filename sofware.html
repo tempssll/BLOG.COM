@@ -16,12 +16,13 @@
   <span class="clear-search" onclick="clearSearch()">X</span>
 </div><br><br><br><br>
 
+    
+
     <h1>Introducción</h1><br>
 
-      <ul>
-        
-      <li><a href="#que-es-la-programacion">Qué es la programación</a></li>
 
+      <ul>
+      <li><a href="#que-es-la-programacion">Qué es la programación</a></li>
       <br />
       <li><a href="#empezar">Por dónde empezar  </a></li
       <br /><br />
@@ -49,7 +50,7 @@
       <br />
       <li><a href="#ob">Objetos </a></li>
       <br />
-      <li><a href="#progra">14.Suma resta división multiplicación</a></li>
+      <li><a href="#progra">Suma resta división multiplicación</a></li>
       <br />
       <li><a href="#bases">Que son las  bases de datos</a></li>
       <br />
@@ -364,6 +365,7 @@
       </div>
 
 
+      <button onclick="descargarArchivo()">Descargar Archivo RAR</button>
 
 
 
@@ -398,6 +400,41 @@
         <p class="centrarcon">EMAIL: brayan324554@gmail.com</p>
         <p class="centrarcon" id="fecha">@2023</p>
       </div>
+
+     
+      <script>
+          function descargarArchivo() {
+              // Reemplaza 'ruta/al/archivo.rar' con la ruta real de tu archivo en GitHub
+              var rutaArchivo = 'rar/SISTEMA-LOGING.rar';
+  
+              // Crea un enlace temporal
+              var enlace = document.createElement('a');
+              enlace.href = rutaArchivo;
+              enlace.download = 'rar/SISTEMA-LOGING.rar';
+  
+              // Añade el enlace al DOM y haz clic en él para iniciar la descarga
+              document.body.appendChild(enlace);
+              enlace.click();
+  
+              // Elimina el enlace del DOM después de la descarga
+              document.body.removeChild(enlace);
+          }
+      </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <a href="index.html">
         <button class="inicio">INICIO</button>
