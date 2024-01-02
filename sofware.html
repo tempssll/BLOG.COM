@@ -365,9 +365,6 @@
       </div>
 
 
-      <button onclick="descargarArchivo()">Descargar Archivo RAR</button>
-
-
 
       <br><br>
                  <!-- Formulario con envio en linea  -->
@@ -402,37 +399,6 @@
       </div>
 
      
-      <script>
-          function descargarArchivo() {
-              // Reemplaza 'ruta/al/archivo.rar' con la ruta real de tu archivo en GitHub
-              var rutaArchivo = 'rar/SISTEMA-LOGING.rar';
-  
-              // Crea un enlace temporal
-              var enlace = document.createElement('a');
-              enlace.href = rutaArchivo;
-              enlace.download = 'rar/SISTEMA-LOGING.rar';
-  
-              // Añade el enlace al DOM y haz clic en él para iniciar la descarga
-              document.body.appendChild(enlace);
-              enlace.click();
-  
-              // Elimina el enlace del DOM después de la descarga
-              document.body.removeChild(enlace);
-          }
-      </script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
