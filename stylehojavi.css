@@ -73,16 +73,18 @@ body {
 
 .profile-picture {
   width: 250px;
-  /*Ajustaelanchodelaimagensegúntupreferencia*/height: auto;
-  /*Manténlarelacióndeaspectooriginal*/border-radius: 50%;
+  /*Ajustaelanchodelaimagensegúntupreferencia*/
+  height: auto;
+  /*Manténlarelacióndeaspectooriginal*/
+  border-radius: 50%;
   object-fit: cover;
   border: 3px solid white;
   position: fixed;
-  
-  /*Hacequelaimagentengaunaposiciónfija*/top: 20px;
-  /*Ajustalaposiciónverticaldesdelapartesuperior*/left: 20px;
-   /* Ajusta la posición horizontal desde la izquierda */:;
 
+  /*Hacequelaimagentengaunaposiciónfija*/
+  top: 20px;
+  /*Ajustalaposiciónverticaldesdelapartesuperior*/
+  left: 20px;
 }
 
 .inicio {
