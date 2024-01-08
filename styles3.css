@@ -152,3 +152,11 @@ p {
   left: 20px; /* Ajusta esta cantidad para cambiar la distancia desde la izquierda */
   cursor: pointer;
 }
+
+.video3 {
+  width: 80%;
+  height: 30%;
+  background-color: black;
+  margin: 0 auto;
+  display: block;
+}
