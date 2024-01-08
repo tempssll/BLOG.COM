@@ -87,6 +87,15 @@ body {
   left: 20px;
 }
 
+.video3 {
+  width: 80%;
+  height: 30%;
+  background-color: black;
+  margin: 0 auto;
+  display: block;
+}
+
+
 .inicio {
   position: fixed;
   font-size: 40px;
